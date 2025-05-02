@@ -1,0 +1,30 @@
+body{
+background-color: aqua;
+}
+h1{
+    color: beige;
+    background: red ;
+    margin: 50px;
+    border: dotted 10px;
+
+}
+h1{
+    color: yellow;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+p{
+    background: blue;
+    color: pink;
+    height: 50%;
+    cursor:pointer;
+   transition: 3s;
+}
+p :hover{
+    font-size: 100px;
+    background: yellow;
+    margin-left: 90%;
+}

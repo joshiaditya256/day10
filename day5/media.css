@@ -1,0 +1,28 @@
+body{
+    background: red;
+}
+.z{
+    display: none;
+}
+@media( min-width: 0px) and(max-width : 400px) {
+    body{
+        background: darkblue;
+    }
+    #a{
+        display: block;
+         
+    }
+}
+@media( min-width: 401px) and(max-width : 750px) {
+    body{
+        background:yellow;
+    }
+    #b{
+        display: block;
+    }
+}
+
+    #c{
+      
+        display: block;
+    }

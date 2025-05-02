@@ -1,0 +1,44 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: aqua;
+}
+
+h1{
+    background: red;
+    margin-top: 10px;
+}
+
+li{
+    background-color: beige;
+    display: inline-block;
+    position: relative;
+
+}
+ul{
+    text-align: right;
+
+}
+.drop{
+    position: absolute;
+    display: none;
+}
+.navbar ul li a{
+    display: block;
+    
+    color: brown;
+    padding: 16px 20px;
+    text-decoration: none;
+
+
+}
+.navbar ul li a:hover{
+    background-color: chartreuse;
+
+}
+.navbar ul li:hover ul.drop{
+    display: block;
+      
+}

@@ -1,0 +1,11 @@
+div{
+    background-color: aliceblue;
+    height: 100px;
+    width: 50%;
+}
+span{
+    background-color: yellow;
+}
+*{
+    background: lightblue;
+}

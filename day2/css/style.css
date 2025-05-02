@@ -1,0 +1,12 @@
+h1{
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    margin-top: 2%;
+}
+body{
+    background-color: aqua;
+    font-style: italic;
+    ruby-align: line-edge;
+    
+}

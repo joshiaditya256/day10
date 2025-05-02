@@ -1,0 +1,22 @@
+body{
+    background: lightgray;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* fr divides screen in that much parts */
+    gap: 50px;
+}
+.grid{
+    background: darkblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+#two{
+    grid-row: 2 span;
+    grid-column: 5 span;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

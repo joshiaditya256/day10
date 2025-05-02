@@ -1,0 +1,24 @@
+body{
+    background: aqua;
+    color: yellow;
+    text-align: center;
+}
+#s{
+    color: brown;
+    font-size: 40px;
+}
+button {
+    background: black;
+    color: yellow;
+    width: 150px;
+    height: 18px;
+    border-radius: 20px;
+    transition: 1s;
+
+}
+button:hover{
+    background: white;
+    color: #858585;
+    cursor: pointer;
+
+}

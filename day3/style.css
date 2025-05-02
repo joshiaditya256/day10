@@ -1,0 +1,30 @@
+body {
+    color: yellow;
+    background: black;
+    text-align: center;
+    background-color: white;
+}
+
+p {
+    font-size: 40px;
+
+    color: lightblue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 100;
+    background: aqua;
+    text-decoration: underline;
+    text-align: center;
+
+}
+#a{
+    text-align: center;
+    background: antiquewhite;
+    /* id is denoted by hash and ids are unique */
+
+}
+.z{
+    /* class represented by dot . */
+    background: red;
+    text-align: left;
+    color: yellow;
+}

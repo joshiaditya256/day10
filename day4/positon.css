@@ -1,0 +1,28 @@
+.parent{
+    background-color:blue;
+    height: 10000px;
+    width: 40000px;
+border: 2px solid;
+margin-left: 200px;
+
+  
+
+}
+.one{
+background: red;
+height: 100px;
+width: 200px;
+top: 50px;
+position: absolute;
+left: 50px;
+z-index: 4;
+}
+.two {
+    background: yellow;
+    width: 200px;
+    height: 100px;
+    position: fixed;
+ 
+    left: 50px;
+    z-index: 2;
+    }

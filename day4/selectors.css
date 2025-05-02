@@ -1,0 +1,34 @@
+*{
+    background-color: aqua;
+}
+p{
+    background: blue;
+
+}
+ /* div p{
+    background-color: yellow;
+} */
+div + p{
+    background-color: red;
+}
+/* div ~ p{
+background-color: white;
+} */
+input{
+    background-color:violet;
+    margin: 100px;
+     
+}
+/* h1,h2{
+    background-color: chocolate;
+} */
+h2::first-letter{
+    font-size: 50px;
+}
+h1::after{
+    content: "👌";
+}
+h2::backdrop{
+    backdrop-filter: blur;
+
+}

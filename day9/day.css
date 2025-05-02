@@ -1,0 +1,25 @@
+body {
+    background: lightblue;
+    color: white;
+    text-align: center;
+}
+
+button {
+    background: black;
+    width: 100px;
+    color: yellow;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.night {
+    background: black; /* ✅ fixed typo */
+    color: yellow;
+}
+
+.night button {
+    background: white;
+    color: darkblue;
+    transition: 3s;
+}
